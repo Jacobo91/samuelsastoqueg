@@ -1,6 +1,7 @@
 import { Box, Typography } from '@mui/material';
 import buildings from "../assets/b&wbuildings.jpg"
-import { Typography } from '@mui/material';
+
+
 
 export default function About(){
     return(
@@ -89,8 +90,16 @@ Our business model will focus on leveraging the latest technological advancement
 
 In conclusion, the current tourism trends in Medellin present an exciting opportunity to invest in the tourism and hospitality sector. We aim to capitalize on these trends and create a leading, innovative, and sustainable hospitality brand that enhances the city's reputation as a smart tourism destination.
             </Typography>
+            <Typography variant='h5'
+                sx={{
+                    textDecoration:"underline"
+                }}
+            >
+                Bibliography
+            </Typography>
             <Typography>
-                nueva cosa aqui
+                    <a  style={{ display:"block" }}  target="_blank" href="https://www.medellin.gov.co/es/sala-de-prensa/noticias/con-mas-de-1-400-000-visitantes-medellin-supero-la-meta-proyectada-para-2022/#:~:text=El%20a%C3%B1o%202022%20dejar%C3%A1%20cifras,la%20historia%20de%20la%20ciudad.">Medellin gov</a>
+                    <a  target="_blank"  href="https://www.bluradio.com/blu360/antioquia/en-el-2022-medellin-rompio-un-nuevo-record-en-turismo-rg10">Blu radio</a>
             </Typography>
         </Box>
     )
