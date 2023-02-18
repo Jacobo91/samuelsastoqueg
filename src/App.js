@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box, Typography } from "@mui/material";
+import Navbar from "./components/Navbar";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Team from "./pages/Team";
+import Sop from "./pages/Sop";
+import Channels from "./pages/Channels";
+import Gantt from "./pages/Gantt"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box>
+      <Navbar/>
+      <Routes>
+        <Route path="/samuelsastoqueg" element={<Home/>}/>
+        <Route path="/samuelsastoqueg/about" element={<About/>}/>
+        <Route path="/samuelsastoqueg/team" element={<Team/>}/>
+        <Route path="/samuelsastoqueg/sop" element={<Sop/>}/>
+        <Route path="/samuelsastoqueg/channels" element={<Channels/>}/>
+        <Route path="/samuelsastoqueg/gantt" element={<Gantt/>}/>
+      </Routes>
+    </Box>
   );
 }
 
