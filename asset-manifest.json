@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/samuelsastoqueg/static/js/main.d2e63776.js",
+    "main.js": "/samuelsastoqueg/static/js/main.65aa048d.js",
     "static/media/b&wbuildings.jpg": "/samuelsastoqueg/static/media/b&wbuildings.9b8026d0424a185aea96.jpg",
     "static/media/tabla.jpg": "/samuelsastoqueg/static/media/tabla.455b1580a14ab5739282.jpg",
     "static/media/photo.jpg": "/samuelsastoqueg/static/media/photo.3b00d8b77e07886c58d7.jpg",
     "index.html": "/samuelsastoqueg/index.html",
-    "main.d2e63776.js.map": "/samuelsastoqueg/static/js/main.d2e63776.js.map"
+    "main.65aa048d.js.map": "/samuelsastoqueg/static/js/main.65aa048d.js.map"
   },
   "entrypoints": [
-    "static/js/main.d2e63776.js"
+    "static/js/main.65aa048d.js"
   ]
 }
